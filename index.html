@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kreasiku</title>
+    <!--Javascript Boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <!--Navbar-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top py-0">
+        <div class="container">
+          <a class="navbar-brand py-0" href="#" style="letter-spacing: 2px; font-size: 1.2rem">
+            <img src="navbarLogo.png" alt="Kreasiku Logo" height="90" />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-uppercase fw-semibold" style="font-size: 0.85rem">
+              <li class="nav-item">
+                <a class="nav-link px-3" href="https://www.instagram.com/kreasikudekor/">Galeri</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#paket">Paket</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Tentang Kami</a>
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a class="btn text-white btn-sm px-4 rounded-pill" href="https://wa.me/6282310782400" style="background-color: #9caf88; border: none">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Navbar End-->
+
+      <!--Corausel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="c1.jpg" class="d-block w-100" alt="Slide 0" />
+          </div>
+          <div class="carousel-item">
+            <img src="c2.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="c3.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="c4.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="c2.jpg" class="d-block w-100" alt="Slide 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="c3.jpg" class="d-block w-100" alt="Slide 5" />
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Corousel End-->
+
+      <!--Portofolio-->
+      <div class="container my-5" id="portofolio">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Portofolio Kami</h2>
+          <p class="text-muted">Inspirasi dekorasi untuk hari bahagia Anda</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c1.jpg" class="card-img-top rounded" alt="Dekorasi 1" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Rustic Elegance</p>
+                <small class="text-muted">Outdoor Wedding</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c2.jpg" class="card-img-top rounded" alt="Dekorasi 2" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Modern Gold</p>
+                <small class="text-muted">Indoor Ballroom</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c3.jpg" class="card-img-top rounded" alt="Dekorasi 3" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Minimalist White</p>
+                <small class="text-muted">Intimate Gathering</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c4.jpg" class="card-img-top rounded" alt="Dekorasi 3" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Minimalist White</p>
+                <small class="text-muted">Intimate Gathering</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c4.jpg" class="card-img-top rounded" alt="Dekorasi 3" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Minimalist White</p>
+                <small class="text-muted">Intimate Gathering</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0 shadow-sm">
+              <img src="c4.jpg" class="card-img-top rounded" alt="Dekorasi 3" />
+              <div class="card-body px-0">
+                <p class="fw-bold mb-0">Minimalist White</p>
+                <small class="text-muted">Intimate Gathering</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Portofolio End-->
+
+      <!--Paket-->
+
+      <div style="background-color: #f1f3ee" class="py-5">
+        <div class="container" id="paket">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Pilihan Paket Dekorasi</h2>
+            <p class="text-muted">Pilih kategori yang sesuai dengan rencana acara Anda</p>
+          </div>
+
+          <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active me-2" data-bs-toggle="pill" data-bs-target="#p-engagement">Engagement</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link me-2" data-bs-toggle="pill" data-bs-target="#p-intimate">Intimate</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link me-2" data-bs-toggle="pill" data-bs-target="#p-rumah">Rumah</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-gedung">Gedung</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-add">Additional</button>
+            </li>
+          </ul>
+
+          <!--Engagement-->
+
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="p-engagement">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Paket Tunangan</h4>
+                    <h2>Rp 3 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Engagement End-->
+
+            <!--Intimate-->
+
+            <div class="tab-pane fade" id="p-intimate">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Intimate Basic</h4>
+                    <h2>Rp 4 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Intimate Advancecd</h4>
+                    <h2>Rp 8 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Intimate End-->
+
+            <!--Rumah-->
+
+            <div class="tab-pane fade" id="p-rumah">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Rumah Hemat</h4>
+                    <h2>Rp 7 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li>
+                        <i class="bi bi-check2 text-success me-2"></i>
+                        LightingStandard
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Rumah Premium</h4>
+                    <h2>Rp 12 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Rumah End-->
+
+            <!--Gedung-->
+
+            <div class="tab-pane fade" id="p-gedung">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">Gedung Silver</h4>
+                    <h2>Rp 20 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center border-top border-dark border-4">
+                    <h4 class="fw-bold">Gedung Gold</h4>
+                    <h2>Rp 35 Juta</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Backdrop 4 Meter</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Kursi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Lighting Standard</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Gedung End-->
+
+            <!--Additional-->
+
+            <div class="tab-pane fade" id="p-add">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <h4 class="fw-bold">All Package</h4>
+                    <h2>Rp 25 Juta/mulai dari</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Mua</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Sound Sytem & Penyanyi</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Catering</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Tenda Dekorasi</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Dekorasi Pelaminan</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> Photografer & Videografer</li>
+                      <li><i class="bi bi-check2 text-success me-2"></i> MC</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100 border-0 shadow-sm p-4 text-center border-top border-dark border-4">
+                    <h4 class="fw-bold">Custom Package</h4>
+                    <h2>Rp 8 Juta/mulai dari</h2>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check2 text-success me-2"></i> Pilih apapun sesuai kebutuhan</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Additional-->
+          </div>
+        </div>
+      </div>
+
+      <!--Paket End-->
+
+      <!--Testimoni-->
+
+      <div class="container my-5 py-5 d-none" id="testimoni">
+        <div class="text-center mb-5">
+          <h6 class="text-muted text-uppercase mb-2" style="letter-spacing: 3px">Testimoni</h6>
+          <h2 class="fw-bold">Apa Kata Mereka?</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-4 bg-light">
+              <div class="card-body">
+                <i class="bi bi-quote fs-1 text-secondary opacity-25"></i>
+                <p class="fst-italic text-dark mb-4">"Dekorasinya bener-bener di luar ekspektasi! Timnya sangat detail dan ngebantu banget dari tahap konsep sampe hari-H. Sukses terus!"</p>
+                <div class="d-flex align-items-center">
+                  <div class="ms-0">
+                    <h6 class="fw-bold mb-0">Siska & Andi</h6>
+                    <small class="text-muted">Desember 2023</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-4 bg-light">
+              <div class="card-body">
+                <i class="bi bi-quote fs-1 text-secondary opacity-25"></i>
+                <p class="fst-italic text-dark mb-4">"Suka banget sama tema Rustic-nya. Simple tapi kelihatan mewah banget di foto. Harganya juga sangat bersahabat buat budget kami."</p>
+                <div class="d-flex align-items-center">
+                  <div class="ms-0">
+                    <h6 class="fw-bold mb-0">Budi & Maya</h6>
+                    <small class="text-muted">Januari 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-4 bg-light">
+              <div class="card-body">
+                <i class="bi bi-quote fs-1 text-secondary opacity-25"></i>
+                <p class="fst-italic text-dark mb-4">"Responnya cepet dan sangat profesional. Backdrop-nya rapi banget dan bunga-bunganya seger semua. Makasih banyak ya!"</p>
+                <div class="d-flex align-items-center">
+                  <div class="ms-0">
+                    <h6 class="fw-bold mb-0">Rian & Dita</h6>
+                    <small class="text-muted">Maret 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Testimoni End-->
+    </div>
+
+    <!--Footer-->
+
+    <footer style="background-color: #9caf88" class="text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h4 class="fw-bold mb-3">Kreasiku Dekor</h4>
+            <p class="text-secondary">Mewujudkan dekorasi pernikahan impian yang elegan, minimalis, dan berkesan untuk momen spesial Anda. Dan Juga membuat acara Anda jadi lebih terkonsep.</p>
+          </div>
+
+          <div class="col-md-2 offset-md-1">
+            <h5 class="fw-bold mb-3">Navigasi</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-secondary text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/kreasikudekor/" class="text-secondary text-decoration-none">Galeri</a>
+              </li>
+              <li>
+                <a href="#portofolio" class="text-secondary text-decoration-none">Portofolio</a>
+              </li>
+              <li>
+                <a href="#paket" class="text-secondary text-decoration-none">Paket</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5">
+            <h5 class="fw-bold mb-3">Hubungi Kami</h5>
+            <p class="text-secondary mb-1"><i class="bi bi-geo-alt me-2"></i> Jl. Kp. Blok Pertemuan, Dramaga, Kabupaten Bogor</p>
+            <p class="text-secondary mb-1"><i class="bi bi-whatsapp me-2"></i> +62 82310782400</p>
+            <p class="text-secondary mb-3"><i class="bi bi-instagram me-2"></i> @kreasikudekor</p>
+
+            <a href="https://wa.me/6282310782400" class="btn btn-outline-light btn-sm px-4"> Chat Via WhatsApp </a>
+          </div>
+        </div>
+
+        <hr class="mt-5 mb-4 border-secondary" />
+
+        <div class="text-center">
+          <small class="text-secondary">&copy; 2026 Kreasiku Dekor. All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer End-->
+
+    <!--Javascript Boostrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
