@@ -59,16 +59,40 @@
         box-shadow: 0 0 0 0.25rem rgba(156,175,136,0.25) !important;
       }
 
+/* --- KHUSUS FIX NAV OFF-SIDE & HAMBURGER --- */
       @media (max-width: 991.98px) {
+        /* 1. Paksa Container biar tetep satu baris (Horizontal) */
+        .navbar .container {
+            display: flex !important;
+            flex-wrap: nowrap !important; /* Kuncinya di sini, biar gak turun */
+            justify-content: space-between !important;
+            align-items: center !important;
+        }
+
+        /* 2. Kecilin font brand khusus di HP biar gak makan tempat */
+        .navbar-brand {
+            font-size: 1.1rem !important;
+            letter-spacing: 1px !important; /* Kurangi spasi dikit di HP */
+            margin-right: 0 !important;
+            white-space: nowrap;
+        }
+
+        /* 3. Atur menu yang muncul pas diklik (Collapse) */
         .navbar-collapse {
+            position: absolute; /* Biar muncul melayang, gak dorong navbar */
+            top: 100%;
+            left: 0;
+            right: 0;
             background-color: #ffffff;
             padding: 15px;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
             margin-top: 10px;
+            z-index: 1000;
         }
 
         .nav-link {
-            color: #6d7d5d !important:
+            color: #6d7d5d !important; /* Tadi di kode lu pake titik dua (:), gua ganti titik koma (;) ya */
+            padding: 10px 0;
         }
       }
