@@ -17,6 +17,8 @@
         border: 1px solid #9caf88;
         margin: 5px;
         transition: 0.3s;
+        padding: 8px 20px !important;
+        border-radius: 50px !important;
       }
 
       .nav-pills .nav-link:hover {
@@ -96,3 +98,4 @@
             padding: 10px 0;
         }
       }
+
